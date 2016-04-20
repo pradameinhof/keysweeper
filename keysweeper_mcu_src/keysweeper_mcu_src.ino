@@ -118,11 +118,12 @@ void setTriggers()
 // pins on the microcontroller
 #define CE 9
 #define CSN 8 // normally 10 but SPI flash uses 10
-#define FONA_TX 3
-#define FONA_RST 4
-#define FONA_RX 5 // was 2, but we're going to use that for an interrupt (RI)
-#define LED_PIN 6 // tie to USB led if you want to show keystrokes
-#define PWR_PIN 7 // are we powered via USB 
+#define FONA_TX 8 // for Adafruit Feather Fona
+#define FONA_RST 4 // for Adafruit Feather Fona
+#define FONA_RX 9 // for Adafruit Feather Fona
+#define FONA_RI  7 // for Adafruit Feather Fona
+#define LED_PIN 10 // tied to unused PIN - tie to USB led if you want to show keystrokes
+#define PWR_PIN 11 // tied to unused PIN - are we powered via USB 
 
 // address to listen for an optional secondary device
 // that we can wirelessly send recorded keystrokes back to,
