@@ -907,6 +907,7 @@ void scan()
 // keep connected to our keysweeper to allow serial input
 void backtrace(uint8_t channel)
 {
+#ifdef backtracer 
   uint8_t p[PKT_SIZE];
 
   while (1)
@@ -939,6 +940,7 @@ void backtrace(uint8_t channel)
       radio.startListening(); 
     }
   }
+#endif
 }
 
 // scan for a keysweeper device so we can pull logs off
