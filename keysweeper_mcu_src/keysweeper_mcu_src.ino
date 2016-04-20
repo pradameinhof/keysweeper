@@ -122,7 +122,7 @@ void setTriggers()
 #define FONA_RST 4 // for Adafruit Feather Fona
 #define FONA_RX 9 // for Adafruit Feather Fona
 #define FONA_RI  7 // for Adafruit Feather Fona
-#define LED_PIN 10 // tied to unused PIN - tie to USB led if you want to show keystrokes
+#define LED_PIN 13 // tied to unused PIN - tie to USB led if you want to show keystrokes
 #define PWR_PIN 11 // tied to unused PIN - are we powered via USB 
 
 // address to listen for an optional secondary device
